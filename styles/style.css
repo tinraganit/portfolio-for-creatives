@@ -604,7 +604,7 @@ a:active {
   width: 100%;
   min-height: 100vh;
   /* TODO: Delete the following if you do not want a grainy gradient background on index.html. Be careful not to delete the closing } */
-  background: linear-gradient(0deg, rgb(237, 134, 56), var(--background-color-holding-page)), url(/assets/temp/noise.svg);
+  background: #CEBE69;
   /* For more on grainy gradients see https://grainy-gradients.vercel.app/ */
 }
 
