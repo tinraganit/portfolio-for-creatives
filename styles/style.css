@@ -30,7 +30,7 @@ Imported stylesheets. Remove the ones you do not want to use.
 
 /* TODO: Delete any stylesheets that you do not want to use. */
 
-
+@import url("make-something-fly.css");
 @import url("animated-gradient.css");
 @import url("text-stroke.css");
 @import url("stroke-shadow.css");
@@ -88,7 +88,7 @@ html {
   --background-color-about: #F6EADE;
   --background-color-footer: #F6EADE;
   --alt-background-color: #ffffff;
-  --background-color-holding-page: #CEBE69;
+  --background-color-holding-page: #F4AF38;
   --h1-color: #1D1000;
   --h2-color: #1D1000;
   --h3-color: #1D1000;
