@@ -88,7 +88,7 @@ html {
   --background-color-about: #F6EADE;
   --background-color-footer: #F6EADE;
   --alt-background-color: #ffffff;
-  --background-color-holding-page: #F4AF38;
+  --background-color-holding-page: #CEBE69;
   --h1-color: #1D1000;
   --h2-color: #1D1000;
   --h3-color: #1D1000;
@@ -97,23 +97,22 @@ html {
   --h6-color: #1D1000;
   --primary-text-color: #1D1000;
   --holding-page-title-color: #1D1000;
-  --accent-color: #5200ff;
-  --overlay-color: #5200ff;
+  --accent-color: #CD4B27;
+  --overlay-color: #CD4B27;
   --overlay-title-color: #1D1000;
   --overlay-description-color: #1D1000;
-  --hyperlink-color: ##ffa200;
+  --hyperlink-color: #CD4B27;
   --hyperlink-alternate-color: rgb(255, 255, 255);
-  --hover-color: #ffa200;
-  --visited-color: #5200ff;
+  --hover-color: #CD4B27;
+  --visited-color: #CD4B27;
   --project-title-color: #1D1000;
   --project-sidebar-background-color: #1D1000;
   --project-sidebar-text-color: white;
-  --heart-color: darkred;
+  --heart-color: #CD4B27;
   --holding-page-footer-color: #f8f8ff;
   --text-selection-background-color: #ffffff;
-  --linear-gradient-color-1: #ff057c;
-  --linear-gradient-color-2: #8d0b93;
-  --linear-gradient-color-3: #321575;
+  --linear-gradient-color-1: #F4AF38;
+  --linear-gradient-color-2: #CD4B27;
   --stroke-shadow-color: rgba(0, 0, 0, 0.4);
 }
 
