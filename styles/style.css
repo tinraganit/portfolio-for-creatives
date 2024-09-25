@@ -11,7 +11,9 @@
 /* TODO: Delete the Google Fonts below and add the Google Fonts you want to use on your site. Each Google font that you load will slightly increase the download speed of your site so make sure to only included necessary fonts here. */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Playpen+Sans:wght@100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 
 
 /*
@@ -33,7 +35,6 @@ Imported stylesheets. Remove the ones you do not want to use.
 @import url("stroke-shadow.css");
 @import url("experiments.css");
 @import url("style-guide.css");
-@import url("scroll-to-top.css");
 
 /*
 
@@ -78,14 +79,14 @@ html {
 /* TODO: Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: "Playpen-Sans", sans-serif;
-  --heading-typeface: "Courier-Prime", serif;
-  --project-title-typeface: "Courier-Prime", serif;
+  --body-typeface: "Courier Prime", serif;
+  --heading-typeface: "Bree Serif", serif;
+  --project-title-typeface: "Bree Serif", serif;
   --background-color: #F6EADE;
   --background-color-about: #F6EADE;
-  --background-color-footer: #F4AF38;
+  --background-color-footer: #CEBE69;
   --alt-background-color: #ffffff;
-  --background-color-holding-page: #F4AF38;
+  --background-color-holding-page: #CEBE69;
   --h1-color: #1D1000;
   --h2-color: #1D1000;
   --h3-color: #1D1000;
@@ -601,7 +602,7 @@ a:active {
   width: 100%;
   min-height: 100vh;
   /* TODO: Delete the following if you do not want a grainy gradient background on index.html. Be careful not to delete the closing } */
-  background: #F4AF38;
+  background: #CEBE69;
   /* For more on grainy gradients see https://grainy-gradients.vercel.app/ */
 }
 
@@ -623,7 +624,7 @@ a:active {
 
 .holding-page-copyright {
   font-size: 0.8rem;
-  color: var(--holding-page-footer-color);
+  color: #1D1000;
   margin-bottom: 0;
 }
 
