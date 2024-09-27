@@ -82,11 +82,11 @@ html {
   --body-typeface: "Courier Prime", serif;
   --heading-typeface: "Bree Serif", serif;
   --project-title-typeface: "Bree Serif", serif;
-  --background-color: #F6EADE;
-  --background-color-about: #F6EADE;
-  --background-color-footer: #CEBE69;
+  --background-color: #fef5eb;
+  --background-color-about: #fef5eb;
+  --background-color-footer: #EAD773;
   --alt-background-color: #ffffff;
-  --background-color-holding-page: #CEBE69;
+  --background-color-holding-page: #EAD773;
   --h1-color: #1D1000;
   --h2-color: #1D1000;
   --h3-color: #1D1000;
@@ -432,7 +432,7 @@ a:active {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  background: var(--background-color-about);
+  background: #fef5eb;
   padding: 1rem;
   flex: 1;
 }
