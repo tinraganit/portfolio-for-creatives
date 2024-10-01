@@ -82,8 +82,8 @@ html {
   --body-typeface: "Courier Prime", serif;
   --heading-typeface: "Bree Serif", serif;
   --project-title-typeface: "Bree Serif", serif;
-  --background-color: #fef5eb;
-  --background-color-about: #fef5eb;
+  --background-color: #F4E8D0;
+  --background-color-about: #F4E8D0;
   --background-color-footer: #EAD773;
   --alt-background-color: #ffffff;
   --background-color-holding-page: #EAD773;
@@ -432,7 +432,7 @@ a:active {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  background: #fef5eb;
+  background: #F4E8D0;
   padding: 1rem;
   flex: 1;
 }
