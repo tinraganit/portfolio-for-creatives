@@ -82,11 +82,11 @@ html {
   --body-typeface: "Courier Prime", serif;
   --heading-typeface: "Bree Serif", serif;
   --project-title-typeface: "Bree Serif", serif;
-  --background-color: #F4E8D0;
-  --background-color-about: #F4E8D0;
-  --background-color-footer: #EAD773;
+  --background-color: #ffffff;
+  --background-color-about: #ffffff;
+  --background-color-footer: #ffffff;
   --alt-background-color: #ffffff;
-  --background-color-holding-page: #EAD773;
+  --background-color-holding-page: #ffffff;
   --h1-color: #1D1000;
   --h2-color: #1D1000;
   --h3-color: #1D1000;
@@ -432,7 +432,7 @@ a:active {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  background: #F4E8D0;
+  background: #ffffff;
   padding: 1rem;
   flex: 1;
 }
@@ -523,7 +523,7 @@ a:active {
   display: flex;
   flex-direction: column;
   color: var(--project-sidebar-text-color);
-  background: #F4E8D0 ;
+  background: #ffffff ;
 }
 
 .project-navigation {
@@ -602,7 +602,7 @@ a:active {
   width: 100%;
   min-height: 100vh;
   /* TODO: Delete the following if you do not want a grainy gradient background on index.html. Be careful not to delete the closing } */
-  background: #CEBE69;
+  background: #ffffff;
   /* For more on grainy gradients see https://grainy-gradients.vercel.app/ */
 }
 
