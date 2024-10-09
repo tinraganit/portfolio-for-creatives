@@ -105,7 +105,7 @@ html {
   --visited-color: #1D1000;
   --project-title-color: #1D1000;
   --project-sidebar-background-color: #1D1000;
-  --project-sidebar-text-color: white;
+  --project-sidebar-text-color: #1d1000 ;
   --heart-color: #CD4B27;
   --holding-page-footer-color: #f8f8ff;
   --text-selection-background-color: #ffffff;
@@ -523,7 +523,7 @@ a:active {
   display: flex;
   flex-direction: column;
   color: var(--project-sidebar-text-color);
-  background: var(--project-sidebar-background-color);
+  background: #F4E8D0 ;
 }
 
 .project-navigation {
