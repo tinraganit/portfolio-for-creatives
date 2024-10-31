@@ -10,11 +10,7 @@
 
 /* TODO: Delete the Google Fonts below and add the Google Fonts you want to use on your site. Each Google font that you load will slightly increase the download speed of your site so make sure to only included necessary fonts here. */
 
-
-
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 /*
 
@@ -87,26 +83,26 @@ html {
   --background-color-footer: #ffffff;
   --alt-background-color: #ffffff;
   --background-color-holding-page: #ffffff;
-  --h1-color: #1D1000;
-  --h2-color: #1D1000;
-  --h3-color: #1D1000;
-  --h4-color: #1D1000;
-  --h5-color: #1D1000;
-  --h6-color: #1D1000;
-  --primary-text-color: #1D1000;
-  --holding-page-title-color: #1D1000;
-  --accent-color: #CD4B27;
-  --overlay-color: #CD4B27;
-  --overlay-title-color: #1D1000;
-  --overlay-description-color: #1D1000;
-  --hyperlink-color: #1D1000;
+  --h1-color: #1d1000;
+  --h2-color: #1d1000;
+  --h3-color: #1d1000;
+  --h4-color: #1d1000;
+  --h5-color: #1d1000;
+  --h6-color: #1d1000;
+  --primary-text-color: #1d1000;
+  --holding-page-title-color: #1d1000;
+  --accent-color: #cd4b27;
+  --overlay-color: #cd4b27;
+  --overlay-title-color: #1d1000;
+  --overlay-description-color: #1d1000;
+  --hyperlink-color: #1d1000;
   --hyperlink-alternate-color: #000000;
-  --hover-color: #CD4B27;
-  --visited-color: #1D1000;
-  --project-title-color: #1D1000;
-  --project-sidebar-background-color: #1D1000;
-  --project-sidebar-text-color: #1d1000 ;
-  --heart-color: #CD4B27;
+  --hover-color: #cd4b27;
+  --visited-color: #1d1000;
+  --project-title-color: #1d1000;
+  --project-sidebar-background-color: #1d1000;
+  --project-sidebar-text-color: #1d1000;
+  --heart-color: #cd4b27;
   --holding-page-footer-color: #f8f8ff;
   --text-selection-background-color: #ffffff;
   --stroke-shadow-color: rgba(0, 0, 0, 0.4);
@@ -136,6 +132,10 @@ svg {
   /* Removes the gap/space in inline elements for text descenders. */
   object-fit: contain;
   /* This is optional. Also try cover or leave out entirely. */
+}
+
+.rounded-corners {
+  border-radius: 2rem;
 }
 
 /* Global & Mobile Typography 
@@ -409,8 +409,9 @@ a:active {
   align-items: center;
   flex-direction: column;
   padding: 1em;
-  background-color: #CD4B27;
+  background-color: #cd4b27;
   transition: opacity 0.3s, visibility 0.3s;
+  border-radius: 2rem;
 }
 
 .work-page-grid-item:hover .overlay {
@@ -523,7 +524,7 @@ a:active {
   display: flex;
   flex-direction: column;
   color: var(--project-sidebar-text-color);
-  background: #ffffff ;
+  background: #ffffff;
 }
 
 .project-navigation {
@@ -624,7 +625,7 @@ a:active {
 
 .holding-page-copyright {
   font-size: 0.8rem;
-  color: #1D1000;
+  color: #1d1000;
   margin-bottom: 0;
 }
 
@@ -659,7 +660,7 @@ a:active {
 }
 
 .play-page-title {
-  color: #CEBE69;
+  color: #cebe69;
 }
 
 /*
