@@ -409,7 +409,7 @@ a:active {
   align-items: center;
   flex-direction: column;
   padding: 1em;
-  background-color: #cd4b27;
+  background-color: #ffffff;
   transition: opacity 0.3s, visibility 0.3s;
   border-radius: 2rem;
 }
