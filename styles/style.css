@@ -50,7 +50,8 @@ No media query for `xs` since this is the default in Bootstrap
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  cursor: url("../assets/temp/up-cursor.png"), auto !important;
+  cursor: url("../assets/branding-images/tin-raganit-logo-t-hummingbird.svg"),
+    auto !important;
   /* TODO: Change the url above to add a custom cursor. Delete the line above if you want to use the default browser cursor. */
 }
 
@@ -80,7 +81,7 @@ html {
   --project-title-typeface: "Bree Serif", serif;
   --background-color: #ffffff;
   --background-color-about: #ffffff;
-  --background-color-footer: #ffffff;
+  --background-color-footer: #ff9400;
   --alt-background-color: #ffffff;
   --background-color-holding-page: #ffffff;
   --h1-color: #1d1000;
@@ -155,6 +156,13 @@ h1 {
   color: var(--h1-color);
 }
 
+.hero-headline {
+  font-size: 2.7rem;
+}
+.hero-sub-headline {
+  font-size: 1.7rem;
+  color: #000;
+}
 h2 {
   font-size: 2.25rem;
   font-family: var(--heading-typeface);
@@ -315,6 +323,7 @@ a:active {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
+  color: #f5ecec;
 }
 
 .branding-navigation {
@@ -329,7 +338,12 @@ a:active {
   width: 3rem;
   /* TODO: Adjust the width of the logo on mobile devices here. */
 }
-
+.svg-logo {
+  fill: black;
+}
+.svg-logo:hover {
+  fill: var(--background-color-footer);
+}
 .hero-headline-wrapper {
   display: flex;
   flex-direction: column;
@@ -338,6 +352,15 @@ a:active {
   justify-content: center;
   padding: 2rem 4rem;
   text-align: center;
+}
+
+.hero-text {
+  width: 60%;
+  padding: 1rem;
+}
+.hero-image {
+  width: 40%;
+  padding: 1rem;
 }
 
 .hero-icon {
@@ -448,11 +471,6 @@ a:active {
   grid-row: 2 / 3;
 }
 
-.about-item-3 {
-  grid-column: 1 / 2;
-  grid-row: 3 / 4;
-}
-
 .about-item-4 {
   grid-column: 1 / 2;
   grid-row: 4 / 5;
@@ -472,7 +490,7 @@ a:active {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  min-height: 100vh;
+  min-height: 80vh;
   background: var(--background-color-footer);
   padding: 1rem;
 }
@@ -710,7 +728,9 @@ a:active {
   }
 
   .hero-headline-wrapper {
+    flex-direction: row;
     padding: 4rem 8rem;
+    background: orangred;
   }
 
   .grid {
@@ -730,12 +750,13 @@ a:active {
 
   .about {
     padding: 4rem;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .global-footer {
     padding: 4rem 4rem 0 4rem;
     grid-template-columns: 1fr 1fr 1fr;
+    min-height: 50vh;
   }
 
   .about-item-1 {
@@ -756,11 +777,6 @@ a:active {
   .footer-item-2 {
     grid-row: 1 / 2;
     grid-column: 2 / 3;
-  }
-
-  .about-item-3 {
-    grid-row: 1 / 2;
-    grid-column: 3 / 4;
   }
 
   .footer-item-3 {
@@ -785,7 +801,7 @@ a:active {
   /* Padding around work grid and project page */
   .portfolio,
   .project-wrapper {
-    padding: 0.5rem;
+    padding: 1.5rem;
   }
 
   /* Project Page Flex Direction on Large Devices */
@@ -842,6 +858,6 @@ a:active {
   /* TODO: Add styles here for XX-large devices. */
 
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
   }
 }
