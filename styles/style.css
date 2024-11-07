@@ -81,7 +81,7 @@ html {
   --project-title-typeface: "Bree Serif", serif;
   --background-color: #ffffff;
   --background-color-about: #ffffff;
-  --background-color-footer: #ff9400;
+  --background-color-footer: #ffffff;
   --alt-background-color: #ffffff;
   --background-color-holding-page: #ffffff;
   --h1-color: #1d1000;
@@ -210,7 +210,7 @@ em {
 }
 
 .hero-headline {
-  color: var(--overlay-color);
+  color: #000;
 }
 
 .project-title {
@@ -241,15 +241,15 @@ a:visited {
 }
 
 a:hover {
-  color: var(--hover-color);
+  color: #cebe69;
 }
 
 a:focus {
-  outline: 1px solid var(--accent-color);
+  outline: 1px solid #cebe69;
 }
 
 a:active {
-  color: var(--hover-color);
+  color: #cebe69;
   /* Tap on mobile */
 }
 
@@ -259,15 +259,15 @@ a:active {
 
 .navigation-arrow:link {
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: var(--accent-color);
+  -webkit-text-stroke-color: #000;
   color: transparent;
 }
 
 .navigation-arrow:active,
 .navigation-arrow:hover {
-  color: var(--accent-color);
+  color: #cebe69;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: var(--accent-color);
+  -webkit-text-stroke-color: #cebe69;
 }
 
 .colored-link {
@@ -342,7 +342,7 @@ a:active {
   fill: black;
 }
 .svg-logo:hover {
-  fill: var(--background-color-footer);
+  fill: rgb(167, 211, 113);
 }
 .hero-headline-wrapper {
   display: flex;
@@ -491,7 +491,7 @@ a:active {
   grid-template-columns: 1fr;
   grid-gap: 3rem;
   min-height: 80vh;
-  background: var(--background-color-footer);
+  background: rgb(167, 211, 113);
   padding: 1rem;
 }
 
