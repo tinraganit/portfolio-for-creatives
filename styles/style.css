@@ -241,15 +241,15 @@ a:visited {
 }
 
 a:hover {
-  color: #cebe69;
+  color:  rgb(167, 211, 113);
 }
 
 a:focus {
-  outline: 1px solid #cebe69;
+  outline: 1px solid  rgb(167, 211, 113);
 }
 
 a:active {
-  color: #cebe69;
+  color:  rgb(167, 211, 113);
   /* Tap on mobile */
 }
 
@@ -263,7 +263,7 @@ a:active {
 
 .navigation-arrow:active,
 .navigation-arrow:hover {
-  color: #cebe69;
+  color:  rgb(167, 211, 113);
 }
 
 .colored-link {
@@ -487,7 +487,7 @@ a:active {
   grid-template-columns: 1fr;
   grid-gap: 3rem;
   min-height: 80vh;
-  background: rgb(167, 211, 113);
+  background: #f5ecec);
   padding: 1rem;
 }
 
