@@ -728,10 +728,10 @@ a:active {
     flex: 1;
   }
   .hero-text {
-    width: 60%;
+    width: 50%;
   }
   .hero-image {
-    width: 40%;
+    width: 50%;
   }
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
