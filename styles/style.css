@@ -328,12 +328,12 @@ a:active {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 2.75rem;
+  padding: 1.75rem;
   align-items: flex-start;
 }
 
 .logo {
-  width: 4rem;
+  width: 3rem;
   /* TODO: Adjust the width of the logo on mobile devices here. */
 }
 .svg-logo {
