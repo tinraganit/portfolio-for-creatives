@@ -10,7 +10,7 @@
 
 /* TODO: Delete the Google Fonts below and add the Google Fonts you want to use on your site. Each Google font that you load will slightly increase the download speed of your site so make sure to only included necessary fonts here. */
 
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url(https://fonts.googleapis.com/css2?family=Bree+Serif&family=Quicksand:wght@300..700&display=swap);
 
 /*
 
@@ -76,7 +76,7 @@ html {
 /* TODO: Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: "Courier Prime", serif;
+  --body-typeface: "Quicksand", sans-serif;
   --heading-typeface: "Bree Serif", serif;
   --project-title-typeface: "Bree Serif", serif;
   --background-color: #ffffff;
@@ -319,7 +319,7 @@ a:active {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-  color: #f5ecec;
+  color: #f5f5f5;
 }
 
 .branding-navigation {
@@ -347,7 +347,7 @@ a:active {
   align-items: center;
   justify-content: center;
   padding: 1rem 2rem;
-  text-align: center;
+  text-align: left;
 }
 
 .hero-text {
@@ -699,7 +699,7 @@ a:active {
   /* TODO: Add or adjust styles here for large devices. */
 
   .holding-page-title {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   h1 {
@@ -728,10 +728,10 @@ a:active {
     flex: 1;
   }
   .hero-text {
-    width: 50%;
+    width: 55%;
   }
   .hero-image {
-    width: 50%;
+    width: 45%;
   }
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
