@@ -486,7 +486,7 @@ a:active {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  min-height: 80vh;
+  min-height: 10vh;
   background: #ffffff ;
   padding: 1rem;
 }
