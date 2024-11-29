@@ -328,7 +328,7 @@ a:active {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 2.75rem;
   align-items: flex-start;
 }
 
