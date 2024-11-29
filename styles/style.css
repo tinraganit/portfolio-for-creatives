@@ -84,8 +84,8 @@ html {
   --background-color-footer: #ffffff;
   --alt-background-color: #ffffff;
   --background-color-holding-page: #ffffff;
-  --h1-color: #1d1000;
-  --h2-color: #1d1000;
+  --h1-color: #cd4b27;
+  --h2-color: #cd4b27;
   --h3-color: #1d1000;
   --h4-color: #1d1000;
   --h5-color: #1d1000;
@@ -153,15 +153,16 @@ h1 {
   font-size: 2.5rem;
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
-  color: var(--h1-color);
+  color: #cd4b27;
 }
 
 .hero-headline {
   font-size: 4rem;
+  color: #1d1000 ;
 }
 .hero-sub-headline {
   font-size: 2rem;
-  color: #000;
+  color: #1d1000 ;
 }
 h2 {
   font-size: 2.5rem;
@@ -210,7 +211,7 @@ em {
 }
 
 .hero-headline {
-  color: #1d1000;
+  color: #cd4b27;
 }
 
 .project-title {
