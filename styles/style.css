@@ -104,7 +104,7 @@ html {
   --project-sidebar-background-color: #1d1000;
   --project-sidebar-text-color: #1d1000;
   --heart-color: #cd4b27;
-  --holding-page-footer-color: #f8f8ff;
+  --holding-page-footer-color: #ffffff;
   --text-selection-background-color: #ffffff;
   --stroke-shadow-color: rgba(0, 0, 0, 0.4);
 }
@@ -121,7 +121,7 @@ body {
 /* The ::selection CSS pseudo-element applies styles to the part of a document that has been highlighted by the user (such as clicking and dragging the mouse across text). */
 
 ::selection {
-  background: var(--accent-color);
+  background: #cd4b2780;
 }
 
 /* Make all images responsive */
@@ -241,15 +241,15 @@ a:visited {
 }
 
 a:hover {
-  color:  rgb(167, 211, 113);
+  color: #cd4b27;
 }
 
 a:focus {
-  outline: 1px solid  rgb(167, 211, 113);
+  outline: 1px solid #cd4b27;
 }
 
 a:active {
-  color:  rgb(167, 211, 113);
+  color: #cd4b27;
   /* Tap on mobile */
 }
 
@@ -263,7 +263,7 @@ a:active {
 
 .navigation-arrow:active,
 .navigation-arrow:hover {
-  color:  rgb(167, 211, 113);
+  color:  #cd4b27;
 }
 
 .colored-link {
@@ -338,7 +338,7 @@ a:active {
   fill: black;
 }
 .svg-logo:hover {
-  fill: rgb(167, 211, 113);
+  fill: #cd4b27;
 }
 .hero-headline-wrapper {
   display: flex;
@@ -674,7 +674,7 @@ a:active {
 }
 
 .play-page-title {
-  color: #cebe69;
+  color: #cd4b27;
 }
 
 /*
