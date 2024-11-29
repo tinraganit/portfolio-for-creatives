@@ -121,7 +121,7 @@ body {
 /* The ::selection CSS pseudo-element applies styles to the part of a document that has been highlighted by the user (such as clicking and dragging the mouse across text). */
 
 ::selection {
-  background: #cd4b2780;
+  background: #cd4b2730;
 }
 
 /* Make all images responsive */
