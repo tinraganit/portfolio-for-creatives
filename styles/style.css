@@ -275,7 +275,7 @@ a:active {
   background: url(assets/temp/heading-background.svg);
   background-size: 15%;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
 }
 
 .heart {
@@ -324,6 +324,7 @@ a:active {
 }
 
 .branding-navigation {
+  font-size: 1.75rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
