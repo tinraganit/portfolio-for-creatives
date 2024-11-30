@@ -197,7 +197,7 @@ h6 {
 }
 
 p {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   line-height: 1.3;
   margin-bottom: 1rem;
 }
@@ -295,7 +295,7 @@ a:active {
 }
 
 .list-item {
-  line-height: 1.3;
+  line-height: 1.2;
   list-style-type: disc;
   margin-left: 1.2rem;
 }
