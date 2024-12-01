@@ -564,16 +564,11 @@ a:active {
 
 .project-image {
   width: 100%;
-  min-height: 20vh;
+  min-height: 0vh;
   /* TODO: Delete min-height if you want to remove space between project images on project pages on mobile devices. It is used for the demo page only. */
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.large-emoji-placeholder {
-  font-size: 12rem;
-  /* TODO: Delete this rule. It is only used for making the placeholder emojis large for demo purposes only. */
 }
 
 .text-section {
