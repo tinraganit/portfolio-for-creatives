@@ -227,6 +227,7 @@ em {
 }
 
 .overlay-description {
+  font-size: 1.4rem;
   color: var(--overlay-description-color);
 }
 
