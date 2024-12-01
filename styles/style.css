@@ -222,7 +222,7 @@ em {
 }
 
 .overlay-title {
-  font-size: 2.875rem;
+  font-size: 2rem;
   color: var(--overlay-title-color);
 }
 
@@ -430,7 +430,7 @@ a:active {
   align-items: center;
   flex-direction: column;
   padding: 1em;
-  background-color: #F6EADE;
+  background-color: #ffffff;
   transition: opacity 0.3s, visibility 0.3s;
   border-radius: 2rem;
 }
