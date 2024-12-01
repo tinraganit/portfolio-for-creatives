@@ -320,7 +320,7 @@ a:active {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-  color: #f5f5f5;
+  color: #F6EADE ;
 }
 
 .branding-navigation {
@@ -430,7 +430,7 @@ a:active {
   align-items: center;
   flex-direction: column;
   padding: 1em;
-  background-color: #ffffff;
+  background-color: #F6EADE;
   transition: opacity 0.3s, visibility 0.3s;
   border-radius: 2rem;
 }
@@ -564,7 +564,7 @@ a:active {
 
 .project-image {
   width: 100%;
-  min-height: 35vh;
+  min-height: 20vh;
   /* TODO: Delete min-height if you want to remove space between project images on project pages on mobile devices. It is used for the demo page only. */
   display: flex;
   align-items: center;
