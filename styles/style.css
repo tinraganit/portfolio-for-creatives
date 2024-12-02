@@ -292,11 +292,12 @@ a:active {
 }
 
 .social-item {
+  font-size: 1.4rem ;
   line-height: 1.75;
 }
 
 .list-item {
-  font-size: 1rem;
+  font-size: 2rem;
   line-height: 1.2;
   list-style-type: disc;
   margin-left: 1.2rem;
