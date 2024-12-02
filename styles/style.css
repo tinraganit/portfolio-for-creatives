@@ -296,6 +296,7 @@ a:active {
 }
 
 .list-item {
+  font-size: 1rem;
   line-height: 1.2;
   list-style-type: disc;
   margin-left: 1.2rem;
@@ -485,7 +486,7 @@ a:active {
                                                    
 */
 
-.global- {
+.global-footer {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
@@ -635,8 +636,8 @@ a:active {
   width: 100%;
 }
 
-.holding-page-copyright {
-  font-size: 0.8rem;
+.copyright {
+  font-size: 1rem;
   color: #1d1000;
   margin-bottom: 0;
 }
