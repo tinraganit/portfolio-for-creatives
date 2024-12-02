@@ -485,7 +485,7 @@ a:active {
                                                    
 */
 
-.global-footer {
+.global- {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
