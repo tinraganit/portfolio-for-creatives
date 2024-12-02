@@ -825,7 +825,7 @@ a:active {
   }
 
   .project-image {
-    min-height: 70vh;
+    min-height: 0vh;
     /* TODO: Delete min-height if you want to remove space between project images on project pages on large devices. It is used for the demo page only. */
   }
 
