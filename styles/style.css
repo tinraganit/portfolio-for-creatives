@@ -567,7 +567,6 @@ a:active {
 
 .project-image {
   width: 100%;
-  min-height: 0vh;
   /* TODO: Delete min-height if you want to remove space between project images on project pages on mobile devices. It is used for the demo page only. */
   display: flex;
   align-items: center;
@@ -825,7 +824,7 @@ a:active {
   }
 
   .project-image {
-    min-height: 0vh;
+    min-height: 75vh;
     /* TODO: Delete min-height if you want to remove space between project images on project pages on large devices. It is used for the demo page only. */
   }
 
