@@ -10,7 +10,7 @@
 
 /* TODO: Delete the Google Fonts below and add the Google Fonts you want to use on your site. Each Google font that you load will slightly increase the download speed of your site so make sure to only included necessary fonts here. */
 
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url(https://fonts.googleapis.com/css2?family=Bree+Serif&family=Quicksand:wght@300..700&display=swap);
 
 /*
 
@@ -76,7 +76,7 @@ html {
 /* TODO: Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: "Courier Prime", serif;
+  --body-typeface: "Quicksand", sans-serif;
   --heading-typeface: "Bree Serif", serif;
   --project-title-typeface: "Bree Serif", serif;
   --background-color: #ffffff;
@@ -84,14 +84,14 @@ html {
   --background-color-footer: #ffffff;
   --alt-background-color: #ffffff;
   --background-color-holding-page: #ffffff;
-  --h1-color: #1d1000;
-  --h2-color: #1d1000;
+  --h1-color: #cd4b27;
+  --h2-color: #cd4b27;
   --h3-color: #1d1000;
   --h4-color: #1d1000;
   --h5-color: #1d1000;
   --h6-color: #1d1000;
   --primary-text-color: #1d1000;
-  --holding-page-title-color: #1d1000;
+  --holding-page-title-color: #cd4b27;
   --accent-color: #cd4b27;
   --overlay-color: #cd4b27;
   --overlay-title-color: #1d1000;
@@ -100,11 +100,11 @@ html {
   --hyperlink-alternate-color: #000000;
   --hover-color: #cd4b27;
   --visited-color: #1d1000;
-  --project-title-color: #1d1000;
+  --project-title-color: #cd4b27;
   --project-sidebar-background-color: #1d1000;
   --project-sidebar-text-color: #1d1000;
   --heart-color: #cd4b27;
-  --holding-page-footer-color: #f8f8ff;
+  --holding-page-footer-color: #ffffff;
   --text-selection-background-color: #ffffff;
   --stroke-shadow-color: rgba(0, 0, 0, 0.4);
 }
@@ -121,7 +121,7 @@ body {
 /* The ::selection CSS pseudo-element applies styles to the part of a document that has been highlighted by the user (such as clicking and dragging the mouse across text). */
 
 ::selection {
-  background: var(--accent-color);
+  background: #cd4b2730;
 }
 
 /* Make all images responsive */
@@ -150,21 +150,22 @@ svg {
 */
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
-  color: var(--h1-color);
+  color: #cd4b27;
 }
 
 .hero-headline {
-  font-size: 2.7rem;
+  font-size: 4rem;
+  color: #1d1000 ;
 }
 .hero-sub-headline {
-  font-size: 1.7rem;
-  color: #000;
+  font-size: 2rem;
+  color: #1d1000 ;
 }
 h2 {
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   font-family: var(--heading-typeface);
   margin-bottom: 1rem;
   color: var(--h2-color);
@@ -196,7 +197,7 @@ h6 {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 1.3;
   margin-bottom: 1rem;
 }
@@ -210,7 +211,7 @@ em {
 }
 
 .hero-headline {
-  color: #000;
+  color: #cd4b27;
 }
 
 .project-title {
@@ -221,11 +222,12 @@ em {
 }
 
 .overlay-title {
-  font-size: 2.875rem;
+  font-size: 2rem;
   color: var(--overlay-title-color);
 }
 
 .overlay-description {
+  font-size: 1.4rem;
   color: var(--overlay-description-color);
 }
 
@@ -241,15 +243,15 @@ a:visited {
 }
 
 a:hover {
-  color: #cebe69;
+  color: #cd4b27;
 }
 
 a:focus {
-  outline: 1px solid #cebe69;
+  outline: 1px solid #cd4b27;
 }
 
 a:active {
-  color: #cebe69;
+  color: #cd4b27;
   /* Tap on mobile */
 }
 
@@ -258,23 +260,23 @@ a:active {
 }
 
 .navigation-arrow:link {
-  color: #000;
+  color: #cd4b27;
 }
 
 .navigation-arrow:active,
 .navigation-arrow:hover {
-  color: #cebe69;
+  color:  #cd4b27;
 }
 
 .colored-link {
-  color: var(--hyperlink-alternate-color);
+  color: #cd4b27;
 }
 
 .custom-navigation:hover {
   background: url(assets/temp/heading-background.svg);
   background-size: 15%;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
 }
 
 .heart {
@@ -290,11 +292,13 @@ a:active {
 }
 
 .social-item {
-  line-height: 1.3;
+  font-size: 1.25rem ;
+  line-height: 1.75;
 }
 
 .list-item {
-  line-height: 1.3;
+  font-size: 2rem;
+  line-height: 1.2;
   list-style-type: disc;
   margin-left: 1.2rem;
 }
@@ -319,14 +323,15 @@ a:active {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-  color: #f5ecec;
+  color: #F6EADE ;
 }
 
 .branding-navigation {
+  font-size: 1.75rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1.75rem;
   align-items: flex-start;
 }
 
@@ -338,7 +343,7 @@ a:active {
   fill: black;
 }
 .svg-logo:hover {
-  fill: rgb(167, 211, 113);
+  fill: #cd4b27;
 }
 .hero-headline-wrapper {
   display: flex;
@@ -347,7 +352,7 @@ a:active {
   align-items: center;
   justify-content: center;
   padding: 1rem 2rem;
-  text-align: center;
+  text-align: left;
 }
 
 .hero-text {
@@ -486,8 +491,8 @@ a:active {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  min-height: 80vh;
-  background: rgb(167, 211, 113);
+  min-height: 60vh;
+  background: #ffffff ;
   padding: 1rem;
 }
 
@@ -562,16 +567,10 @@ a:active {
 
 .project-image {
   width: 100%;
-  min-height: 50vh;
   /* TODO: Delete min-height if you want to remove space between project images on project pages on mobile devices. It is used for the demo page only. */
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.large-emoji-placeholder {
-  font-size: 12rem;
-  /* TODO: Delete this rule. It is only used for making the placeholder emojis large for demo purposes only. */
 }
 
 .text-section {
@@ -637,8 +636,8 @@ a:active {
   width: 100%;
 }
 
-.holding-page-copyright {
-  font-size: 0.8rem;
+.copyright {
+  font-size: 1rem;
   color: #1d1000;
   margin-bottom: 0;
 }
@@ -674,7 +673,7 @@ a:active {
 }
 
 .play-page-title {
-  color: #cebe69;
+  color: #cd4b27;
 }
 
 /*
@@ -699,7 +698,7 @@ a:active {
   /* TODO: Add or adjust styles here for large devices. */
 
   .holding-page-title {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   h1 {
@@ -728,10 +727,10 @@ a:active {
     flex: 1;
   }
   .hero-text {
-    width: 60%;
+    width: 55%;
   }
   .hero-image {
-    width: 40%;
+    width: 45%;
   }
   .grid {
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -812,7 +811,7 @@ a:active {
   /* Sidebar on Large Devices */
   .project-aside {
     width: 35%;
-    height: 65vh;
+    height: 85vh;
     position: -webkit-sticky;
     position: sticky;
     top: 5vh;
