@@ -247,7 +247,7 @@ a:hover {
 }
 
 a:focus {
-  outline: 1px solid #cd4b27;
+  outline: 1px solid round #cd4b27;
 }
 
 a:active {
@@ -341,10 +341,10 @@ a:active {
   /* TODO: Adjust the width of the logo on mobile devices here. */
 }
 .svg-logo {
-  fill: black;
+  fill: #cd4b27;
 }
 .svg-logo:hover {
-  fill: #cd4b27;
+  fill: #1d1000;
 }
 .hero-headline-wrapper {
   display: flex;
