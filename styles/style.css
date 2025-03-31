@@ -157,7 +157,7 @@ h1 {
 }
 
 .hero-headline {
-  font-size: 3.5rem;
+  font-size: 3.25rem;
   color: #1d1000 ;
 }
 .hero-sub-headline {
@@ -227,7 +227,7 @@ em {
 }
 
 .overlay-description {
-  font-size: 1.4rem;
+  font-size: 1.25rem;
   color: var(--overlay-description-color);
 }
 
@@ -296,14 +296,14 @@ a:active {
 }
 
 .list-item {
-  font-size: 2rem;
-  line-height: 1.2;
+  font-size: 1.25rem;
+  line-height: 1;
   list-style-type: disc;
   margin-left: 1.2rem;
 }
 
 .project-description {
-  font-size: 1.225rem;
+  font-size: 1.25rem;
   line-height: 1.2;
   margin-bottom: 1rem;
 }
