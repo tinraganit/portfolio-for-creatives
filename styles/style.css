@@ -323,7 +323,7 @@ a:active {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-  color: #F6EADE ;
+  background-color: #F6EADE;
 }
 
 .branding-navigation {
@@ -333,6 +333,7 @@ a:active {
   justify-content: space-between;
   padding: 1.75rem;
   align-items: flex-start;
+  background-color: #F6EADE;
 }
 
 .logo {
@@ -352,7 +353,7 @@ a:active {
   align-items: center;
   justify-content: center;
   padding: 1rem 2rem;
-  text-align: left;
+  text-align: center;
 }
 
 .hero-text {
@@ -392,8 +393,10 @@ a:active {
 
 */
 
+
 .work-wrapper {
   flex: 1;
+  background-color: #F6EADE;
 }
 
 /* Padding around work grid and project page */
@@ -457,7 +460,7 @@ a:active {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  background: #ffffff;
+  background: #F6EADE;
   padding: 1rem;
   flex: 1;
 }
@@ -492,7 +495,7 @@ a:active {
   grid-template-columns: 1fr;
   grid-gap: 3rem;
   min-height: 60vh;
-  background: #ffffff ;
+  background: #F6EADE;
   padding: 1rem;
 }
 
@@ -534,6 +537,7 @@ a:active {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background: #F6EADE;
 }
 
 /* Sidebar */
@@ -543,7 +547,7 @@ a:active {
   display: flex;
   flex-direction: column;
   color: var(--project-sidebar-text-color);
-  background: #ffffff;
+  background: #F6EADE;
 }
 
 .project-navigation {
@@ -616,7 +620,7 @@ a:active {
   width: 100%;
   min-height: 100vh;
   /* TODO: Delete the following if you do not want a grainy gradient background on index.html. Be careful not to delete the closing } */
-  background: #ffffff;
+  background: #cd4b27;
   /* For more on grainy gradients see https://grainy-gradients.vercel.app/ */
 }
 
@@ -626,7 +630,7 @@ a:active {
 
 .holding-page-title {
   font-size: 1.5rem;
-  color: var(--holding-page-title-color);
+  color:#F6EADE;;
 }
 
 .holding-page-footer {
