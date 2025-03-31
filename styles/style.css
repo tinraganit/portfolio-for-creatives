@@ -231,6 +231,16 @@ em {
   color: var(--overlay-description-color);
 }
 
+.branding-navigation {
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.75rem;
+  align-items: flex-start;
+  background-color: #F6EADE;
+}
+
 /* Hyperlink Styles */
 
 a:link {
