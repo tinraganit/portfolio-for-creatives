@@ -174,7 +174,7 @@ h2 {
 h3 {
   font-size: 1.325rem;
   margin-bottom: 1rem;
-  line-height: 1.3;
+  line-height: 1.5;
   color: var(--h3-color);
 }
 
@@ -294,17 +294,17 @@ a:active {
 
 .footer-nav-item {
   font-size: 1.25rem ;
-  line-height: 1.75;
+  line-height: 1.5;
 }
 
 .award-item {
   font-size: 1.25rem ;
-  line-height: 1.75;
+  line-height: 1.5;
 }
 
 .social-item {
   font-size: 1.25rem ;
-  line-height: 1.75;
+  line-height: 1.5;
 }
 
 .list-item {
@@ -316,7 +316,7 @@ a:active {
 
 .project-description {
   font-size: 1.25rem;
-  line-height: 1.2;
+  line-height: 1.5;
   margin-bottom: 1rem;
 }
 
