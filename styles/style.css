@@ -293,11 +293,11 @@ a:active {
 }
 
 .footer-nav-item {
-  line-height: 1.3;
+  line-height: 1.75;
 }
 
 .award-item {
-  line-height: 1.3;
+  line-height: 1.75;
 }
 
 .social-item {
@@ -307,7 +307,7 @@ a:active {
 
 .list-item {
   font-size: 1.25rem;
-  line-height: 1.2;
+  line-height: 1.75;
   list-style-type: disc;
   margin-left: 1.2rem;
 }
@@ -329,7 +329,7 @@ a:active {
 */
 
 .hero {
-  min-height: 80vh;
+  min-height: 75vh;
   display: flex;
   flex-direction: column;
   background-color: #F6EADE;
@@ -647,7 +647,7 @@ a:active {
 .holding-page-footer {
   display: grid;
   place-items: center;
-  min-height: 10vh;
+  min-height: 0vh;
   width: 100%;
 }
 
@@ -734,12 +734,13 @@ a:active {
   }
 
   .hero {
-    min-height: 100vh;
+    min-height: 75vh;
   }
 
   .hero-headline-wrapper {
     flex-direction: row;
     flex: 1;
+    min-height: 60vh;
   }
   .hero-text {
     width: 55%;
