@@ -158,11 +158,11 @@ h1 {
 
 .hero-headline {
   font-size: 4rem;
-  color: #1d1000 ;
+  color: #1d1000;
 }
 .hero-sub-headline {
   font-size: 2rem;
-  color: #1d1000 ;
+  color: #1d1000;
 }
 h2 {
   font-size: 2.25rem;
@@ -232,13 +232,13 @@ em {
 }
 
 .branding-navigation {
-  font-size: .5rem;
+  font-size: 0.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 1.75rem;
   align-items: flex-start;
-  background-color: #F6EADE;
+  background-color: #f6eade;
 }
 
 /* Hyperlink Styles */
@@ -274,7 +274,7 @@ a:active {
 
 .navigation-arrow:active,
 .navigation-arrow:hover {
-  color:  #cd4b27;
+  color: #cd4b27;
 }
 
 .colored-link {
@@ -293,17 +293,17 @@ a:active {
 }
 
 .footer-nav-item {
-  font-size: 1.25rem ;
+  font-size: 1.25rem;
   line-height: 1.5;
 }
 
 .award-item {
-  font-size: 1.25rem ;
+  font-size: 1.25rem;
   line-height: 1.5;
 }
 
 .social-item {
-  font-size: 1.25rem ;
+  font-size: 1.25rem;
   line-height: 1.5;
 }
 
@@ -334,7 +334,7 @@ a:active {
   min-height: 75vh;
   display: flex;
   flex-direction: column;
-  background-color: #F6EADE;
+  background-color: #f6eade;
 }
 
 .branding-navigation {
@@ -344,7 +344,7 @@ a:active {
   justify-content: space-between;
   padding: 1.75rem;
   align-items: flex-start;
-  background-color: #F6EADE;
+  background-color: #f6eade;
 }
 
 .logo {
@@ -404,10 +404,9 @@ a:active {
 
 */
 
-
 .work-wrapper {
   flex: 1;
-  background-color: #F6EADE;
+  background-color: #f6eade;
 }
 
 /* Padding around work grid and project page */
@@ -418,8 +417,8 @@ a:active {
 
 /* Defining the work page grid */
 .grid {
-  display: block;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   grid-gap: 1rem;
   /* Magical, media-query-less responsiveness is achieved using the repeat() function and the auto placement keywords. To achieve wrapping, we can use the auto-fit. If you're using auto-fit, the content will stretch to fill the entire row width.  Specify a minimum width for the columns, using the minmax() function. The 1fr is what tells the browser to distribute the space between the columns so that each column equally gets one fraction of that space.  */
 }
@@ -471,7 +470,7 @@ a:active {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 3rem;
-  background: #F6EADE;
+  background: #f6eade;
   padding: 1rem;
   flex: 1;
 }
@@ -506,7 +505,7 @@ a:active {
   grid-template-columns: 1fr;
   grid-gap: 3rem;
   min-height: 60vh;
-  background: #F6EADE;
+  background: #f6eade;
   padding: 1rem;
 }
 
@@ -548,7 +547,7 @@ a:active {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: #F6EADE;
+  background: #f6eade;
 }
 
 /* Sidebar */
@@ -558,7 +557,7 @@ a:active {
   display: flex;
   flex-direction: column;
   color: var(--project-sidebar-text-color);
-  background: #F6EADE;
+  background: #f6eade;
 }
 
 .project-navigation {
@@ -643,7 +642,7 @@ a:active {
 
 .holding-page-title {
   font-size: 1.5rem;
-  color:#F6EADE;
+  color: #f6eade;
 }
 
 .holding-page-footer {
@@ -668,7 +667,6 @@ a:active {
 */
 
 /* TODO: Customize your 404 Error Page */
-
 
 /* The best 404 pages have become an art in themselves. Your 404 error page is an opportunity to make a memorable impression on your visitors when they don’t land exactly where they hoped. */
 
@@ -750,10 +748,6 @@ a:active {
   }
   .hero-image {
     width: 45%;
-  }
-  .grid {
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    grid-gap: 1rem;
   }
 
   /* Grayscale filter with full-colour on hover and tap */
@@ -864,8 +858,4 @@ a:active {
 
 @media (min-width: 1200px) {
   /* TODO: Add styles here for XX-large devices. */
-
-  .grid {
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-  }
 }
