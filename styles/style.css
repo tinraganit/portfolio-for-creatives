@@ -79,7 +79,7 @@ html {
   --body-typeface: "Quicksand", sans-serif;
   --heading-typeface: "Bree Serif", serif;
   --project-title-typeface: "Bree Serif", serif;
-  --background-color: #ffffff;
+  --background-color: #f6eade;
   --background-color-about: #ffffff;
   --background-color-footer: #ffffff;
   --alt-background-color: #ffffff;
@@ -112,7 +112,7 @@ html {
 body {
   font-family: var(--body-typeface);
   color: var(--primary-text-color);
-  background: var(--background-color);
+  background: #f6eade;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -446,7 +446,7 @@ a:active {
   align-items: center;
   flex-direction: column;
   padding: 1em;
-  background-color: #ffffff;
+  background-color: #f6eade;
   transition: opacity 0.3s, visibility 0.3s;
   border-radius: 2rem;
 }
